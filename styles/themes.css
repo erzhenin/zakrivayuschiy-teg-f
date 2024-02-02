@@ -9,6 +9,8 @@
   --color-main: black;
   --color-accent: #00cc14;
   --color-button-text: #00cc14;
+  --color-heart-contour: #00cc14;
+  --color-heart-sparks: red;
   --font-weight-text: 465;
   --font-weight-title: 785;
 
@@ -22,6 +24,8 @@
   --color-main: white;
   --color-accent: black;
   --color-button-text: white;
+  --color-heart-contour: black;
+  --color-heart-sparks: red;
   --font-weight-text: 400;
   --font-weight-title: 700;
 
@@ -36,6 +40,8 @@
     --color-main: white;
     --color-accent: black;
     --color-button-text: white;
+    --color-heart-contour: black;
+    --color-heart-sparks: red;
     --font-weight-text: 400;
     --font-weight-title: 700;
     
@@ -51,6 +57,8 @@
     --color-main: black;
     --color-accent: #00cc14;
     --color-button-text: #00cc14;
+    --color-heart-contour: #00cc14;
+    --color-heart-sparks: red;
     --font-weight-text: 465;
     --font-weight-title: 785;
 
