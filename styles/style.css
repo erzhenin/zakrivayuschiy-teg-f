@@ -413,11 +413,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  justify-content: center;
   align-items: center;
   gap: 8px;
   margin-block-end: 100px;
-  padding: 0;
   padding: 17px 8px 17px 8px;
   inline-size: clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem);
 }
