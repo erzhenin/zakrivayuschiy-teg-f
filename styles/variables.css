@@ -1,1 +1,20 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-family-main: "Inter-Variable";
+  --font-family-accent: "Press Start 2P";
+  --font-weight-text: 400;
+  --font-weight-title: 700;
+  
+  --color-main: white;
+  --color-accent: black;
+  --color-button-text: white;
+
+  --gradient-color-lines: #d3d3d3;
+  --gradient-color-first: #e7e7e7;
+  --gradient-color-last: #1a1a1a;
+  --gradient-starting-point: 0.01%;
+
+  --gradient-background: repeating-linear-gradient(var(--gradient-color-lines) 0px 2px, transparent 2px 4px),
+  repeating-linear-gradient(90deg, var(--gradient-color-lines) 0px 2px, transparent 2px 4px),
+  repeating-linear-gradient(var(--gradient-color-first) 0 var(--gradient-starting-point), var(--gradient-color-last));
+}
