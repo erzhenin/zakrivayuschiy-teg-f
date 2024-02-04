@@ -13,26 +13,6 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
 
-.theme-menu__button {
-  transition: opacity 0.3s ease;
-}
-
-.theme-menu__button::after {
-  transition: transform 0.3s ease;
-}
-
-.button {
-  transition: box-shadow 0.3s ease;
-}
-
-.button::after {
-  transition: scale 0.5s ease-in-out;
-}
-
-.card__icon-button {
-  transition: border-color 0.3s ease;
-}
-
 .contour {
   transition: fill 0.1s linear;
 }
