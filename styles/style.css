@@ -194,6 +194,13 @@
   mix-blend-mode: hard-light;
 }
 
+@media (width >= 1440px) {
+  .card__image-label {
+    top: 27px;
+    right: 25px;
+  }
+}
+
 @supports ((text-stroke: 1px #000000) or (-webkit-text-stroke: 1px #000000)) {
   .card__image-label {
     text-shadow: none;
