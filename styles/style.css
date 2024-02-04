@@ -354,6 +354,10 @@
   cursor: pointer;
 }
 
+.button:focus {
+  outline: none;
+}
+
 .button:focus-visible {
   box-shadow: 2px 2px var(--color-accent);
   outline: none;
