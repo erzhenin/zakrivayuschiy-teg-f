@@ -18,11 +18,11 @@
 }
 
 .core {
-  transition: fill 0.3s 0.03s ease;
+  transition: fill 0.3s 0.03s linear;
 }
 
 .main-body {
-  transition: fill 0.3s ease;
+  transition: fill 0.3s linear;
 }
 
 .card__icon-button:hover .core {
@@ -44,15 +44,15 @@
 }
 
 .like-icon.is-liked .contour {
-  transition: fill 0.3s 0.06s ease;
+  transition: fill 0.3s 0.06s linear;
 }
 
 .like-icon.is-liked .heart {
-  animation: heart-animation ease-in 0.3s 0.1s;
+  animation: heart-animation ease-in 0.3s 0.1s alternate;
 }
 
 .like-icon.is-liked .sparks {
-  animation: sparks-animation ease-in 0.3s 0.3s;
+  animation: sparks-animation ease-in 0.3s 0.3s alternate;
 }
 
 @keyframes theme-menu-arrow {
